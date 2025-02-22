@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.header {
+    background-color: #2a3b48;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-login {
+    font-weight: 600;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.balance-info h3 {
+    margin: 10px 0;
+}
+
+.btn-action {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.stamp-portfolio {
+    margin-top: 20px;
+}
+
+.stamps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stamp-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.stamp-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.transaction-history {
+    padding: 20px;
+    text-align: center;
+}
+
+.transaction-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.transaction-table th, .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.transaction-table th {
+    background-color: #2a3b48;
+    color: white;
+}
+
+.community-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.community-posts .post {
+    background-color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

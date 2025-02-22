@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philatelist Community</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">टिकट𝐀𝐋𝐁𝐔𝐌</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <!-- Dropdown for Category -->
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Category</a>
+                <div class="dropdown-content">
+                    <a href="#">Stamp Collection</a>
+                    <a href="#">Vintage Stamps</a>
+                    <a href="#">Rare Stamps</a>
+                    <a href="#">International Stamps</a>
+                </div>
+            </li>
+        </ul>
+        <a href="#" class="btn-login">Account</a>
+    </nav>
+</header>
+
+    <!-- Community Section -->
+    <section class="community-section">
+        <h2>Philatelist Community</h2>
+        <p>Connect with other philatelists, share your collection, and discuss the latest in the stamp world!</p>
+
+        <!-- Create Post Section -->
+        <div class="create-post">
+            <textarea id="post-content" placeholder="Share something with the community..."></textarea>
+            <button class="btn-primary" onclick="createPost()">Post </button>
+        </div>
+
+        <!-- Posts Section -->
+        <div class="posts-section">
+            <h3>Recent Posts</h3>
+            <div id="posts-container">
+                <img src="download (2).jpeg" alt="Stamp 1" class="gallery-img" onclick="openLightbox(); currentImage(1)">
+                <img src="images (3).jpeg" alt="Stamp 2" class="gallery-img" onclick="openLightbox(); currentImage(2)">
+                <img src="images.jpeg" alt="Stamp 3" class="gallery-img" onclick="openLightbox(); currentImage(3)">
+                <img src="images (2).jpeg" alt="Stamp 4" class="gallery-img" onclick="openLightbox(); currentImage(4)">
+                <img src ="download (1).jpeg" alt="Stamp 5" class="gallery-img" onclick="openLightbox(); currentImage(5)">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 टिकट𝐀𝐋𝐁𝐔𝐌 | All Rights Reserved</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>

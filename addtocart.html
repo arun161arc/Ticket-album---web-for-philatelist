@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cart.css">
+        
+    </head>
+    <body>
+        <div class="header">
+            <p class="logo">टिकट𝐀𝐋𝐁𝐔𝐌</p>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#features">New Releases</a></li>
+                <li><a href="#auction">Auctions</a></li>
+                
+                
+                <li class="dropdown">
+                    <a href="#product" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a href="#">Stamps</a>
+                        <a href="#">Postcards</a>
+                        <a href="#">Vintage Stamps</a>
+                        <a href="#">FDC</a>
+                        <a href="#">International Stamps</a>
+                        <a href="#">Miniature Sheets</a>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="cart"><ion-icon name="cart"></ion-icon><p id="count">0</p></div>
+            
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem"><p>Your cart is empty</p></div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">$ 0.00</h2>
+                </div>
+                <div>
+                    <div>
+                    <button class="purchase-btn">Place order </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="addcart.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   </body>
+</html>
